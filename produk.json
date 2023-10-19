@@ -1,0 +1,30 @@
+{
+    "menu_makanan": {
+        "Nasi Goreng": {
+            "harga": 15000,
+            "stok": 10
+        },
+        "Mie Ayam": {
+            "harga": 12000,
+            "stok": 15
+        },
+        "Bakso": {
+            "harga": 10000,
+            "stok": 20
+        }
+    },
+    "menu_minuman": {
+        "Es Teh": {
+            "harga": 5000,
+            "stok": 10
+        },
+        "Es Jeruk": {
+            "harga": 6000,
+            "stok": 15
+        },
+        "Kopi": {
+            "harga": 8000,
+            "stok": 20
+        }
+    }
+}
