@@ -1,50 +1,49 @@
-# Aplikasi Kasir Rumah Makan Santuy
+# Santuy Restaurant Cashier Application
 
-Aplikasi kasir ini dibuat dengan Python dan menggunakan JSON untuk menyimpan data menu dan pesanan. Aplikasi ini memiliki fitur-fitur berikut:
+This cashier application is created with Python and utilizes JSON to store menu and order data. The application comes with the following features:
 
-* Menampilkan daftar menu berdasarkan kategori
-* Menambahkan menu ke dalam keranjang
-* Mengubah jumlah pesanan
-* Menghapus menu dari keranjang
-* Menampilkan detail pesanan
-* Melakukan pembayaran
+- Displaying a list of menus based on categories
+- Adding menus to the cart
+- Modifying the quantity of orders
+- Removing menus from the cart
+- Displaying order details
+- Processing payments
 
-## Cara Menggunakan
+## How to Use
 
-Untuk menggunakan aplikasi ini, ikuti langkah-langkah berikut:
+To use this application, follow these steps:
 
-1. Jalankan file `main.py`.
-2. Masukkan nama Anda.
-3. Pilih kategori menu yang ingin Anda beli.
-4. Pilih menu yang ingin Anda pesan.
-5. Masukkan jumlah pesanan.
-6. Ulangi langkah 3-5 untuk menambahkan menu lain ke dalam keranjang.
-7. Tekan tombol `0` untuk menyelesaikan pemesanan.
-8. Masukkan uang Anda.
-9. Tunggu proses pembayaran.
+1. Run the main.py file.
+2. Enter your name.
+3. Choose the menu category you want to purchase.
+4. Select the menu you want to order.
+5. Enter the quantity of the order.
+6. Repeat steps 3-5 to add other menus to the cart.
+7. Press the 0 key to complete the order.
+8. Enter your payment amount.
+9. Wait for the payment process.
 
-## Dokumentasi
+## Documentation
+### Function save_data()
 
-### Fungsi `save_data()`
+This function is used to save data to a JSON file.
 
-Fungsi ini digunakan untuk menyimpan data ke file JSON.
+### Function load_data()
 
-### Fungsi `load_data()`
+This function is used to load data from a JSON file.
 
-Fungsi ini digunakan untuk memuat data dari file JSON.
+### Function print_menu()
 
-### Fungsi `print_menu()`
+This function is used to print a list of menus based on categories.
 
-Fungsi ini digunakan untuk mencetak daftar menu berdasarkan kategori.
+### Function print_order()
 
-### Fungsi `print_pesanan()`
+This function is used to print order details.
 
-Fungsi ini digunakan untuk mencetak detail pesanan.
+### Function main()
 
-### Fungsi `main()`
+This function is the main application function. It runs the application from start to finish.
 
-Fungsi ini adalah fungsi utama aplikasi. Fungsi ini akan menjalankan aplikasi dari awal hingga akhir.
+## License
 
-## Lisensi
-
-Aplikasi ini dirilis di bawah lisensi MIT.
+This application is released under the MIT License.
