@@ -46,4 +46,4 @@ This function is the main application function. It runs the application from sta
 
 ## License
 
-This application is released under the MIT License.
+This application is released under the [MIT License](https://github.com/thisdoraemon/cashier-app/blob/main/LICENSE).
